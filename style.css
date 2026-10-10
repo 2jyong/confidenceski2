@@ -71,11 +71,12 @@ h2 em{color:var(--red)}
 .hero-shade{background:linear-gradient(90deg,rgba(5,6,8,.44),rgba(5,6,8,.24) 52%,rgba(5,6,8,.44)),linear-gradient(0deg,rgba(5,6,8,.61),rgba(5,6,8,.12) 28%,rgba(5,6,8,.23) 70%,rgba(5,6,8,.48))}
 .hero-content{text-align:center;padding-block:95px 55px}
 .hero h1{max-width:1240px;margin:0 auto;font-size:clamp(58px,7vw,108px);line-height:1.28;letter-spacing:-.075em;text-shadow:0 8px 35px rgba(0,0,0,.58)}
+.hero h1 span:nth-child(-n+2){font-size:.82em;font-weight:800}
 .hero-scroll-mark{position:absolute;bottom:30px;left:50%;height:45px;border-left:1px solid rgba(255,255,255,.8);pointer-events:none}
 .hero-scroll-mark::after{content:"";position:absolute;bottom:0;left:-3px;width:5px;height:5px;border-radius:50%;background:var(--red)}
 @media(max-width:900px){.hero-media video{object-position:53% center}.hero-shade{background:linear-gradient(0deg,rgba(5,6,8,.66),rgba(5,6,8,.3) 30%,rgba(5,6,8,.39) 73%,rgba(5,6,8,.62))}.hero-content{padding-block:80px 40px}.hero h1{font-size:clamp(43px,10.8vw,68px);line-height:1.34;letter-spacing:-.075em}.hero-scroll-mark{bottom:21px;height:37px}}
 
-/* Cinematic entry: a red seam opens the footage, then the three lines arrive. */
+/* Cinematic entry: a red seam opens the footage, then the title lines arrive. */
 .hero-reveal{position:absolute;inset:0;z-index:3;pointer-events:none}
 .hero-reveal::before,.hero-reveal::after{content:"";position:absolute;top:0;bottom:0;width:50.1%;background:#09090b;will-change:transform}
 .hero-reveal::before{left:0;animation:heroCurtainLeft 1.05s cubic-bezier(.78,0,.18,1) .52s both}
