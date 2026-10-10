@@ -85,6 +85,8 @@ h2 em{color:var(--red)}
 .hero h1 span{opacity:0;transform:translateY(70px);clip-path:inset(0 0 100% 0);animation:heroStatement .95s cubic-bezier(.16,1,.3,1) 1.12s both}
 .hero h1 span:nth-child(2){animation-delay:1.36s}
 .hero h1 span:nth-child(3){animation-delay:1.58s}
+.hero h1 span:nth-child(4){animation-delay:1.8s}
+@media(max-width:380px){.hero h1{font-size:38px;line-height:1.27}}
 .hero-media video{animation:heroFootage 2.4s cubic-bezier(.16,1,.3,1) both}
 .hero-scroll-mark{transform-origin:top;animation:heroScrollMark .55s ease 2s both}
 @keyframes heroSeam{0%{transform:scaleX(0);opacity:0}18%{opacity:1}48%{transform:scaleX(1);opacity:1}75%{transform:scaleX(1);opacity:1}100%{transform:scaleX(1);opacity:0}}
